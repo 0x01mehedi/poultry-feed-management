@@ -1,0 +1,13 @@
+<?php
+if($page=="create-warehouse"){
+	$found=include("views/pages/warehouse/create_warehouse.php");
+}elseif($page=="edit-warehouse"){
+	$found=include("views/pages/warehouse/edit_warehouse.php");
+}elseif($page=="warehouses"){
+	$found=include("views/pages/warehouse/manage_warehouse.php");
+}elseif($page=="details-warehouse"){
+	$found=include("views/pages/warehouse/details_warehouse.php");
+}elseif($page=="view-warehouse"){
+	$found=include("views/pages/warehouse/view_warehouse.php");
+}
+?>

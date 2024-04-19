@@ -1,0 +1,35 @@
+[21-Jan-2024 11:32:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'discount' at row 1 in D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\orderdetail.class.php:29
+Stack trace:
+#0 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\orderdetail.class.php(29): mysqli->query()
+#1 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\api\order_api.php(43): OrderDetail->save()
+#2 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\api\api.php(139): OrderApi::save()
+#3 {main}
+  thrown in D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\orderdetail.class.php on line 29
+[21-Jan-2024 11:32:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'discount' at row 1 in D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\orderdetail.class.php:29
+Stack trace:
+#0 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\orderdetail.class.php(29): mysqli->query()
+#1 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\api\order_api.php(43): OrderDetail->save()
+#2 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\api\api.php(139): OrderApi::save()
+#3 {main}
+  thrown in D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\orderdetail.class.php on line 29
+[21-Jan-2024 11:33:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'product_id' at row 1 in D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\moneyreceiptdetail.class.php:21
+Stack trace:
+#0 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\moneyreceiptdetail.class.php(21): mysqli->query()
+#1 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\api\moneyreceipt_api.php(48): MoneyReceiptDetail->save()
+#2 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\api\api.php(139): MoneyReceiptApi::save()
+#3 {main}
+  thrown in D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\moneyreceiptdetail.class.php on line 21
+[21-Jan-2024 11:33:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'product_id' at row 1 in D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\moneyreceiptdetail.class.php:21
+Stack trace:
+#0 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\moneyreceiptdetail.class.php(21): mysqli->query()
+#1 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\api\moneyreceipt_api.php(48): MoneyReceiptDetail->save()
+#2 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\api\api.php(139): MoneyReceiptApi::save()
+#3 {main}
+  thrown in D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\moneyreceiptdetail.class.php on line 21
+[21-Jan-2024 11:35:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\orderdetail.class.php:55
+Stack trace:
+#0 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\orderdetail.class.php(55): mysqli->query()
+#1 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\api\order_api.php(68): OrderDetail::all_by_order_id()
+#2 D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\api\api.php(139): OrderApi->find()
+#3 {main}
+  thrown in D:\webserver\www\student\round56\mehedi\projects\project2.0\app2.0.0\models\orderdetail.class.php on line 55

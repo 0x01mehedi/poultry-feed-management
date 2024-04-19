@@ -1,0 +1,13 @@
+<?php
+if($page=="create-feed"){
+	$found=include("views/pages/ui/feed/create_feed.php");
+}elseif($page=="edit-feed"){
+	$found=include("views/pages/ui/feed/edit_feed.php");
+}elseif($page=="feeds"){
+	$found=include("views/pages/ui/feed/manage_feed.php");
+}elseif($page=="details-feed"){
+	$found=include("views/pages/ui/feed/details_feed.php");
+}elseif($page=="view-feed"){
+	$found=include("views/pages/ui/feed/view_feed.php");
+}
+?>

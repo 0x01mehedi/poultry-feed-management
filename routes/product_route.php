@@ -1,0 +1,13 @@
+<?php
+if($page=="create-product"){
+	$found=include("views/pages/product/create_product.php");
+}elseif($page=="edit-product"){
+	$found=include("views/pages/product/edit_product.php");
+}elseif($page=="products"){
+	$found=include("views/pages/product/manage_product.php");
+}elseif($page=="details-product"){
+	$found=include("views/pages/product/details_product.php");
+}elseif($page=="view-product"){
+	$found=include("views/pages/product/view_product.php");
+}
+?>

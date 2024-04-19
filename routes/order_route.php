@@ -1,0 +1,19 @@
+<?php
+if($page=="create-order"){
+	$found=include("views/pages/order/create_order.php");
+}elseif($page=="create-orders"){
+	$found=include("views/pages/order/create_orders.php");
+}elseif($page=="edit-order"){
+	$found=include("views/pages/order/edit_order.php");
+}elseif($page=="create-tailor-order"){
+	$found=include("views/pages/order/create_tailor_order.php");
+}elseif($page=="create-my-order"){
+	$found=include("views/pages/order/create_my_order.php");
+}elseif($page=="orders"){
+	$found=include("views/pages/order/manage_order.php");
+}elseif($page=="details-order"){
+	$found=include("views/pages/order/details_order.php");
+}elseif($page=="view-order"){
+	$found=include("views/pages/ui/order/view_order.php");
+}
+?>

@@ -1,0 +1,21 @@
+  .card{
+    background-color: #e2e2e2;
+  }
+  .wrapper{
+    background-color: rgba(0, 0, 0,0.1);
+  }
+  .invoice{
+    background-color:#e9e8e8;
+  }
+  .content-wrapper {
+    background-color: #cbcaca;
+  }
+  .content-wrapper {
+    /* background-color: #cbcaca; */
+    background: rgb(185,206,207);
+    background: linear-gradient(0deg, rgba(185,206,207,0.9696078260405725) 0%, rgba(255,231,180,0.8967786943879115) 100%); 
+  }
+  /* .main-sidebar{
+    background: rgb(1,23,24);
+    background: linear-gradient(90deg, rgba(15, 16, 17, 0.925) 0%, rgba(31, 31, 30, 0.925) 100%);  
+  } */

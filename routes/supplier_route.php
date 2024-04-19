@@ -1,0 +1,13 @@
+<?php
+if($page=="create-supplier"){
+	$found=include("views/pages/supplier/create_supplier.php");
+}elseif($page=="edit-supplier"){
+	$found=include("views/pages/supplier/edit_supplier.php");
+}elseif($page=="suppliers"){
+	$found=include("views/pages/supplier/manage_supplier.php");
+}elseif($page=="details-supplier"){
+	$found=include("views/pages/supplier/details_supplier.php");
+}elseif($page=="view-supplier"){
+	$found=include("views/pages/supplier/view_supplier.php");
+}
+?>
